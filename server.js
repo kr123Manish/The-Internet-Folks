@@ -16,7 +16,7 @@ app.set('view engine', 'ejs', 'cors');
 app.use(bodyParser.json());
 
 app.use(express.static("public"));
-mongoose.connect("mongodb+srv://Group:Manish@api-cluster.dnb3xm9.mongodb.net/CommunitiesDb", {
+mongoose.connect("mongodb+srv://Group:<password>@api-cluster.dnb3xm9.mongodb.net/CommunitiesDb", {
   useNewUrlParser: "true",
 });
 
